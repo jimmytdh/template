@@ -1,0 +1,42 @@
+$navbar-nav-link-padding-x: 0.9rem;
+
+
+$theme-colors: (
+        "primary": #293a80,
+        "success": #17ae5f,
+        //"danger": #c72c41,
+        //"info" : #46b3e6,
+        //"warning" : #f6da63
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.card-header {
+  font-weight: bold;
+
+  h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+body {
+  padding-bottom: 30px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.8rem;
+}
+
+header {
+  background-image: url('../images/hospital.png');
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
