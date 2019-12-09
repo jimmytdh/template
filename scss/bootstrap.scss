@@ -40,3 +40,21 @@ header {
   -webkit-background-size: cover;
   background-size: cover;
 }
+
+.bg-header {
+  background-image: url('../images/header.png');
+  background-attachment: scroll;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alert-danger-outline {
+  border: 1px dashed #cc322e;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+label { font-weight: bold; }
