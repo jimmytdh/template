@@ -12,7 +12,9 @@ $theme-colors: (
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "widgets";
+@import "navtabs";
 @import "box";
+@import "carousel";
 
 .card-header {
   font-weight: bold;
